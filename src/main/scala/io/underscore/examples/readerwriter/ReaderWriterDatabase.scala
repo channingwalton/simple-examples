@@ -24,7 +24,7 @@ object TheProblem {
         commit()
         result
       } catch {
-        case whatever => rollback(); throw whatever
+        case whatever: Exception => rollback(); throw whatever
       }
 
     def startTransaction() = {}
@@ -89,7 +89,7 @@ object ReaderToTheRescue {
         commit()
         result
       } catch {
-        case whatever => rollback(); throw whatever
+        case whatever: Exception => rollback(); throw whatever
       }
 
     def startTransaction() = {}

@@ -10,10 +10,7 @@ scalaBinaryVersion := "2.11"
 
 incOptions := incOptions.value.withNameHashing(true)
 
-resolvers ++= Seq("snapshots" at "http://oss.sonatype.org/content/repositories/snapshots",
-  "staging" at "http://oss.sonatype.org/content/repositories/staging",
-  "releases" at "http://oss.sonatype.org/content/repositories/releases"
-)
+resolvers += "releases" at "http://oss.sonatype.org/content/repositories/releases"
 
 scalacOptions ++= Seq("-unchecked", "-deprecation", "-language:_")
 
