@@ -8,4 +8,4 @@ Licensed under the [Apache License v2.0](http://www.apache.org/licenses/LICENSE-
 Synopsis
 --------
 
-Here lies code from my `Simple examples in scala` blogs hosted at [Underscoreconsulting Consulting/](http://www.underscoreconsulting.com/).
+Here lies code from my `Simple examples in scala` blogs hosted at [Underscore Consulting](http://www.underscoreconsulting.com/).
