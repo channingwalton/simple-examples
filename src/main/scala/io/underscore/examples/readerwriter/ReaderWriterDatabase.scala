@@ -3,7 +3,7 @@ package io.underscore.examples.readerwriter
 import scalaz._
 
 /**
- * See http://underscoreconsulting.com/blog/posts/2014/07/08/readerwriterstate.html
+ * See http://underscoreconsulting.com/blog/posts/2014/07/27/readerwriterstate.html
  */
 object TheProblem {
 
